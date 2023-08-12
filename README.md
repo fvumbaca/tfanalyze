@@ -1,8 +1,8 @@
-# Terraform Summarize
+# Terraform Analyze
 
 > 🚧 Under Construction 🚧
 
-A tool to sumarize and enforce rules around Terraform plan files.
+A tool to analyze and enforce rules around Terraform plan files.
 
 ## Example
 
@@ -30,7 +30,7 @@ resource "google_sql_database_instance" "instance" {
 ```
 
 When we are deploying, we want to make sure we do not make a horrible mistake.
-We are responcible engineers, so we run a terraform plan before applying on our
+We are responsible engineers, so we run a terraform plan before applying on our
 pipelines:
 
 ```text
